@@ -101,7 +101,7 @@
 		}
 
 		if ($loader.exists()) {
-			vl.setTimerProgress(60);
+			//vl.setTimerProgress(60);
 		}
 
 		if ($frameContainer.exists()) {
