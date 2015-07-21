@@ -1,0 +1,108 @@
+* {box-sizing: border-box; margin: 0; padding: 0;}
+*::after, *::before {box-sizing: border-box;}
+
+.vl-loader{
+	position: absolute;
+	width: 380px;
+	height: 380px;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	user-select: none;
+}
+.vl-loader-bg
+{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: 5px solid rgba(255, 255, 255, 0.1);
+	box-sizing: border-box;
+}
+.vl-spiner-holder-one
+{
+	position: absolute;
+	top:0;
+	left:0;
+	overflow: hidden;
+	width: 50%;
+	height: 50%;
+	background: transparent;
+	box-sizing: border-box;
+}
+.vl-spiner-holder-two
+{
+	position: absolute;
+	top:0;
+	left:0;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	box-sizing: border-box;
+}
+.vl-loader-spiner
+{
+	width: 200%;
+	height: 200%;
+	border-radius: 50%;
+	border: 5px solid rgba(219, 28, 29, 1);
+	box-sizing: border-box;
+}
+.vl-animate-0-25-a
+{
+	-webkit-transform: rotate(90deg);
+	-webkit-transform-origin: 100% 100%;
+	transform: rotate(90deg);
+	transform-origin: 100% 100%;
+}
+.vl-animate-0-25-b
+{
+	-webkit-transform: rotate(-90deg);
+	-webkit-transform-origin: 100% 100%;
+	transform: rotate(-90deg);
+	transform-origin: 100% 100%;
+}
+.vl-animate-25-50-a
+{
+	-webkit-transform: rotate(180deg);
+	-webkit-transform-origin: 100% 100%;
+	transform: rotate(180deg);
+	transform-origin: 100% 100%;
+}
+.vl-animate-25-50-b
+{
+	-webkit-transform: rotate(-90deg);
+	-webkit-transform-origin: 100% 100%;
+	transform: rotate(-90deg);
+	transform-origin: 100% 100%;
+}
+.vl-animate-50-75-a
+{
+	-webkit-transform: rotate(270deg);
+	-webkit-transform-origin: 100% 100%;
+	transform: rotate(270deg);
+	transform-origin: 100% 100%;
+}
+.vl-animate-50-75-b
+{
+	-webkit-transform: rotate(-90deg);
+	-webkit-transform-origin: 100% 100%;
+	transform: rotate(-90deg);
+	transform-origin:100% 100%;
+}
+.vl-animate-75-100-a
+{
+	-webkit-transform: rotate(0deg);
+	-webkit-transform-origin: 100% 100%;
+	transform: rotate(0deg);
+	transform-origin: 100% 100%;
+}
+.vl-animate-75-100-b
+{
+	-webkit-transform: rotate(-90deg);
+	-webkit-transform-origin: 100% 100%;
+	transform: rotate(-90deg);
+	transform-origin: 100% 100%;
+}
