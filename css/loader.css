@@ -50,6 +50,11 @@
 	border: 5px solid rgba(219, 28, 29, 1);
 	box-sizing: border-box;
 }
+
+.vl-white .vl-loader-spiner {
+	border-color: #f06927;
+}
+
 .vl-animate-0-25-a
 {
 	-webkit-transform: rotate(90deg);

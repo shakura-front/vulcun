@@ -25,6 +25,75 @@ body.vl-white {background: #f6f7fa none; color: #000000;}
 
 .vl-white .vl-title {color: #000000; border-color: #f06927;}
 
+.vl-white .vl-shadow-animate-container {background: none;}
+.vl-white .vl-circle-container:before,
+.vl-white .vl-circle-container:after {background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(154, 152, 179, 1) 50%, rgba(0, 0, 0, 0) 100%);}
+
+.vl-white .vl-progress-lost-container.vl-animation .vl-progress-lost-container__angles-top::before,
+.vl-white .vl-progress-lost-container.vl-animation .vl-progress-lost-container__angles-top::after,
+.vl-white .vl-progress-lost-container.vl-animation .vl-progress-lost-container__angles-bottom::before,
+.vl-white .vl-progress-lost-container.vl-animation .vl-progress-lost-container__angles-bottom::after,
+
+.vl-white .vl-progress-lost-container__angles-top:before,
+.vl-white .vl-progress-lost-container__angles-top:after,
+.vl-white .vl-progress-lost-container__angles-bottom:before,
+.vl-white .vl-progress-lost-container__angles-bottom:after {border-color: #f06928;}
+
+.vl-white .vl-progress-lost-container.vl-animation .vl-circle-container {border-color: #d0cfe7;}
+
+.vl-white .vl-progress-lost__info-bet h1,
+.vl-white .vl-progress-lost__info-skins h1 {color: #333333;}
+
+.vl-white .vl-progress-lost__info-total h1 {color: #92b449;}
+
+.vl-white .vl-progress-lost__info-image {color: #454545;}
+.vl-white .vl-progress-lost__info-image .vl-progress-lost__avatar img {border-color: #e7ebef;}
+
+.vl-white .vl-progress-lost__info-bet p,
+.vl-white .vl-progress-lost__info-skins p,
+.vl-white .vl-progress-lost__info-total p {color: #c3c3c3;}
+
+.vl-white .vl-stroke-container {background: #f6f7fa; border-color: #9a98b3;}
+.vl-white .vl-count-rates-container {border-color: #9a98b3; color: #3e3d48; text-shadow: none;}
+
+.vl-white .vl-popular-item-round {background: #ffffff; border-color: #d0cfe7;}
+.vl-white .vl-popular-item-round:hover {border-color: #f06927;}
+
+.vl-white .vl-popular-item-round:hover .vl-popular-item-round__line,
+.vl-white .vl-popular-item-round__line {background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(69, 69, 69, 0.5) 50%, rgba(0, 0, 0, 0) 100%);}
+.vl-white .vl-popular-item-round__rate {color: #f06927;}
+.vl-white .vl-popular-item-round__name {color: #454545;}
+.vl-white .vl-2x {color: #181818;}
+
+.vl-white .vl-scrollbar {border-color: #e3e3f0;}
+.vl-white .vl-scrollbar .handle {background-color: #e5e5e5; background-image: url(../images/white/bg-scrollbar.png);}
+
+.vl-white .vl-new-round__item-user-icon img {border-color: #d0cfe7;}
+.vl-white .vl-new-round__item-user-chance {border-color: #d0cfe7;}
+.vl-white .vl-new-round__item-user-chance li {background-color: #f6f7fa; border-color: #d0cfe7;}
+.vl-white .vl-new-round__item-user-chance li.light {background: linear-gradient(#abd05a, #9abd4f);}
+
+.vl-white .vl-new-round__item,
+.vl-white .vl-last-round__item {color: #454545;}
+
+.vl-white .vl-new-round__item,
+.vl-white .vl-last-round__item,
+.vl-white .vl-new-round__item td:nth-child(2),
+.vl-white .vl-new-round__item td:nth-child(4),
+.vl-white .vl-new-round__item td:nth-child(3),
+.vl-white .vl-last-round__item td:nth-child(3),
+.vl-white .vl-last-round__item td:nth-child(2),
+.vl-white .vl-last-round__item td:nth-child(4) {border-color: #d0cfe7;}
+
+.vl-white .vl-new-round__item-user-rate,
+.vl-white .vl-last-round__item-user-rate {color: #92b449;}
+
+.vl-white .vl-new-round__item-user-case-count:before,
+.vl-white .vl-last-round__item-user-case-count:before {background-image: url(../images/white/user-case-icon.png);}
+
+.vl-white .vl-last-round__item:hover {border-color: #f06927;}
+.vl-white .vl-last-round__item-user-win {border-color: #f06927; background-color: #f06927; color: #ffffff;}
+
 
 .vl-white .vl-footer {background: #3e3d48 none;}
 .vl-white .vl-blue-neon-footer {background: none;}
@@ -33,3 +102,8 @@ body.vl-white {background: #f6f7fa none; color: #000000;}
 .vl-white .vl-footer-nav-left li a:hover {color: #ffffff;}
 .vl-white .vl-footer-nav-left li {border-color: #5a5868;}
 .vl-white .vl-copyright {color: #b4b2ce;}
+
+
+
+
+.vl-new-round__item-user-timer {right: -18px;}

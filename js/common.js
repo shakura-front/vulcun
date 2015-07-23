@@ -120,7 +120,7 @@
 		}
 
 		if ($progressLostInfoContainer.exists()) {
-			vl.setTimerNewRate();
+			//vl.setTimerNewRate();
 		}
 	});
 
