@@ -103,7 +103,7 @@ body.vl-white {background: #f6f7fa none; color: #000000;}
 .vl-white .vl-footer-nav-left li {border-color: #5a5868;}
 .vl-white .vl-copyright {color: #b4b2ce;}
 
-
+.vl-flash {width: 400px; height: 400px; border-radius: 100%; margin: auto; z-index: 10; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: radial-gradient(rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 70%); animation: circle-bg-animate 3s linear infinite; -webkit-animation: circle-bg-animate 3s linear infinite; -ms-animation: circle-bg-animate 3s linear infinite;}
 
 
 .vl-new-round__item-user-timer {right: -18px;}

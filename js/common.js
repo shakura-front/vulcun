@@ -15,6 +15,7 @@
 		scrollbar: 'vl-scrollbar',
 
 		animation: 'vl-animation',
+		flash: 'vl-flash',
 
 		shadowAnimateContainer: 'vl-shadow-animate-container',
 		progressLostInfoContainer: 'vl-progress-lost__info-container',
@@ -272,8 +273,12 @@
 	vl.stopReel = function() {
 		var i = 5;
 		var setIntervalStopReel = setInterval(function (){
+			if (i === 1) {
+				$(selectors.flash).removeClass(classNames.displayNone);
+			}
 			if (i < 1) {
 				$progressLostInfoContainer.removeClass(classNames.animation);
+				$(selectors.flash).addClass(classNames.displayNone);
 				clearInterval(setIntervalStopReel);
 			} else {
 				$progressLostInfoContainer.removeClass('vl-speed-animation-' + (i+1));
