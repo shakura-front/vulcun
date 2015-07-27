@@ -279,6 +279,9 @@
 			if (i < 1) {
 				$progressLostInfoContainer.removeClass(classNames.animation);
 				$(selectors.flash).addClass(classNames.displayNone);
+				$countRatesContainer.html($('<span/>', {text: 'WIN'})).removeClass(classNames.displayNone);
+				$progressLostInfoTotal.find('h1').text('$ ' +  + Math.floor((Math.random() * 9000) + 1));
+				$progressLostInfoTotal.removeClass(classNames.displayNone);
 				clearInterval(setIntervalStopReel);
 			} else {
 				$progressLostInfoContainer.removeClass('vl-speed-animation-' + (i+1));
